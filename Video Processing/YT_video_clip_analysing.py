@@ -1,13 +1,13 @@
 from googleapiclient.discovery import build
 
 # Replace with your API key
-API_KEY = 'YOUR_API_KEY'
+API_KEY = 'AIzaSyBFhF1HsjPPikz2bin56-4x3yo6hArIhzI'
 
 # Create a YouTube API client
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 # Video ID of the YouTube video
-video_id = 'YOUR_VIDEO_ID'
+video_id = 'r5NQecwZs1A&ab'
 
 # Get video statistics (view count over time)
 video_stats_response = youtube.videos().list(
